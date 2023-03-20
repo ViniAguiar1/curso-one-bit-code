@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Space-X</title>
+</head>
+<body>
+    <header>
+        <nav><a href="spaceX.html"><img src="./assets/img/spacex.png"></a>.|<a href="spaceX.html">Space-X</a>
+        | <a href="espaconaves.html">Nossas Naves</a></nav>
+    </header>
+    <hr>
+    <h2>Nos contrate já</h2>
+    <div>
+        Entre em contato pelo formulario abaixo e escolha um de nossos produtos
+    </div><br>
+
+    <form>
+    <div>
+            <label id="nome" name="nome">Nome:</label>
+            <input type="text" id="nome"name="nome" placeholder="Seu nome..."> - 
+            <label id="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+    </div><br>
+    <div>
+        <label id="servicos">Espaçonaves:</label>
+        <input list="servicos"> <datalist id="servicos">
+            <option value="Falcon 9">
+                <option value="falcon Heavy">
+        </datalist>
+        <label id="tipoDeServico">Tipos de serviço:</label>
+        <input type="search" id="tipoDeServico" name="tipoDeServico">
+    </div><br>
+    <input type="submit" id="enviar" name="enviar">
+</body>
+</html>

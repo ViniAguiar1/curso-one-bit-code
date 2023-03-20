@@ -1,0 +1,14 @@
+body {
+    background-image: url('https://jpimg.com.br/uploads/2017/04/2526327569-logotipo-mancha-verde.jpg');
+   
+    background-size: cover;
+}
+li {
+    color: gray;
+}
+h1{
+    border-color: yellow;
+    border-width: 8px;
+    border-style: solid;
+    font-size: 50px;
+}

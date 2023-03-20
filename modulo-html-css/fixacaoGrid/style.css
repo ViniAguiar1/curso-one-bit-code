@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    min-height: 100vh;
+    background-color: darkgray;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 15px;
+    grid-auto-rows: minmax(80px, auto);
+}
+.item{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+.header{
+    grid-column: 1/4;
+}
+.item4{
+    grid-column: 1/4;
+}
+.item5{
+    grid-column: 1/3;
+}
+.footer{
+    grid-column: 1/4;
+}

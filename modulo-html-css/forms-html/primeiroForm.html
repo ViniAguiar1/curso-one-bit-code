@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da liga dos Astronautas</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <div>
+        <form action="">
+        Nome: <input type="text" placeholder="Seu nome..." id="nome"><br>
+        <br>
+        Email: <input type="email" placeholder="Seu email..."> - Password: <input type="password"><br>
+        <br>Data de nascimento: <input type="date" id="date" name="date"> - Foto: <input type="file" id="foto" name="foto"><br>
+        <br>Nacionalidade:  <input list="nacionalidade"> <datalist id="nacionalidade">
+            <option value="Russo">
+            <option value="Estadunidense">
+            <option value="Brasileiro">
+            <option value="Canadense">
+            <option value="Francês">
+          </datalist>
+          - Genero: F<input type="radio" id="genero" value="feminino"> M<input type="radio" id="genero" value="masculino"><br>
+          <br>
+          Sua principais qualidades: <br>
+          Inteligencia: <input type="checkbox" name="qualidades" id="qualidades"> | Resiliencia: <input type="checkbox" name="qualidades" id="qualidades">
+          | Preparo Fisico: <input type="checkbox" name="qualidades" id="qualidades"> | Educação: <input type="checkbox" name="qualidades" id="qualidades"> |<br>
+          <br>
+          <textarea placeholder="Porque voce gostaria de ser astronauta?"></textarea><br>
+          <input type="submit" id="criar" value="criar" name="criar">
+        </form>
+    </div>
+</body>
+</html>

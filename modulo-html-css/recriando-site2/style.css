@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+.post-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 70%;
+    background-color: #fffafa;
+}
+
+
+h1{
+    font-family: Montserrat, Arial, sans-serif;
+}
+.date{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #008080;
+}
+.post-content{
+    font-family: Open Sans, Arial;
+    font-weight: normal;
+    width: 90%;
+}
+.post{
+    background-color: #fffafa;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
