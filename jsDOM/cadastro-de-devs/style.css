@@ -1,0 +1,76 @@
+/* Definir a fonte padrão do documento */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilizar o cabeçalho principal */
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Estilizar o subcabeçalho */
+  h2 {
+    color: #666;
+  }
+  
+  /* Estilizar os rótulos de entrada */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Estilizar as entradas de texto */
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilizar os botões */
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Estilizar o botão para adicionar novas tecnologias */
+  #addTechBtn {
+    background-color: #28a745;
+  }
+  
+  /* Estilizar a lista de tecnologias */
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilizar os itens da lista de tecnologias */
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  /* Estilizar o botão de envio */
+  [type="submit"] {
+    background-color: #007bff;
+  }
+  
