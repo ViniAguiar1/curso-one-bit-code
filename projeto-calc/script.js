@@ -40,6 +40,7 @@ function calculate() {
     resultInput.value = result
     resultInput.classList.remove("error")
     console.log('Calculado!')
+    console.log(`Estamos em ${Date()}`)
   }
   
   document.getElementById("copiar").addEventListener("click", function (ev) {
