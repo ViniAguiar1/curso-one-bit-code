@@ -8,3 +8,36 @@ document.getElementById('sessionBtn').addEventListener('click', function () {
     const info = sessionStorage.getItem('info')
     alert('A informação salva é: ' + info)
   })
+  
+  document.getElementById('localBtn').addEventListener('click', function() {
+    const input = document.getElementById('local')
+    localStorage.setItem('text', input.value)
+    input.value = ''
+    // alert('A informação salva é: ' + info)
+  })
+  document.getElementById('readLocal').addEventListener('click', function(){
+    const info2 = localStorage.getItem('text')
+    alert('A informação no localStorage é: ' + info2)
+  })
+
+  document.getElementById('cookieBtn').addEventListener('click', function () {
+    const input = document.getElementById('cookie')
+    // cookieName=value; expires=UTCStringDate; path=/;
+    const cookie = 'info=' + input.value + ';'
+    const expiration = 'expires=' + new Date(2023,9, 9) + ';'
+    const path = 'path=/;'
+    document.cookie = cookie + expiration + path
+    input.value = ''
+    console.log(document.cookie)
+  })
+  
+  document.getElementById('cookie2Btn').addEventListener('click', function () {
+    const input = document.getElementById('cookie2')
+    // cookieName=value; expires=UTCStringDate; path=/;
+    const cookie = 'text=' + input.value + ';'
+    const expiration = 'expires=' + new Date(2022, 8, 9) + ';'
+    const path = 'path=/;'
+    document.cookie = cookie + expiration + path
+    input.value = ''
+    console.log(document.cookie)
+  })
